@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 FROM tomcat:latest
 COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
+=======
+FROM tomcat:latest
+COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
+>>>>>>> e5dcdc0eb2b18b8c856c013fd5f2ca899fd38b65
 RUN cp -r /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps
